@@ -1,0 +1,21 @@
+
+<h1>{{ title }}</h1>
+
+<input type="text" [(ngModel)]="power">
+{{power | exponential}}
+
+<ul>
+
+  <li *ngIf='items.length ===0'>No hay productos</li>
+  <!-- <li *ngFor="let item of items; index as i">
+    {{i }} {{ item.title }}  {{ item.price }}
+  </li> -->
+
+</ul> 
+
+
+
+
+
+<br>
+{{ items | json }}

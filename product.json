@@ -1,0 +1,6 @@
+[
+    {"id":"2","image":"assets/images/hoodie.png","title":"Hoodie","price":10000,"description":"bla bla bla bla bla"},
+    {"id":"3","image":"assets/images/mug.png","title":"Mug","price":80000,"description":"bla bla bla bla bla"},
+    {"id":"4","image":"assets/images/pin.png","title":"Pin","price":80000,"description":"bla bla bla bla bla"},
+    {"id":"100","title":"cien","price":100,"image":"https://firebasestorage.googleapis.com/v0/b/ma-plants.appspot.com/o/image.png?alt=media&token=7fc40d39-60e8-4de7-85e9-5c36d8824385","description":"other article"}
+]

@@ -1,0 +1,37 @@
+<footer class="footer">
+  <div class="footer-container">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <div class="box">
+          <h3>Productos</h3>
+          <ul>
+            <li><a>Nuevos Productos</a></li>
+            <li><a>En oferta</a></li>
+            <li><a>Últimos productos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="box">
+          <h3>Acerca de GreenPlant</h3>
+          <ul>
+            <li><a>Sobre nosotros</a></li>
+            <li><a>Nuestras Tiendas</a>></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-4">
+        <div class="box">
+          <h3><a routerLink="/contact">contact</a></h3>
+
+            <mat-form-field class="example-full-width">
+              <input matInput placeholder="Ingrese su correo" [formControl]="emailField" type="email">
+              <button mat-raised-button [disabled]="emailField.invalid" (click)="sendMail()">Enviar</button>
+            </mat-form-field>
+  
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
